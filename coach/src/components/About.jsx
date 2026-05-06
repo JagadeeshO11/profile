@@ -82,15 +82,15 @@ export default function About() {
             <div className="mt-16 space-y-3">
               <p className="text-xs font-semibold tracking-[0.2em] uppercase mb-4" style={{ color: A }}>National Awards</p>
               {awards.map((a, i) => (
-                <motion.div key={a.year}
+                <motion.div key={i}
                   initial={{ opacity: 0, x: -16 }} whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }} transition={{ delay: i * 0.1 }}
                   whileHover={{ x: 4 }}
                   className="flex gap-4 items-start p-4 border-l-4"
                   style={{ borderColor: A, background: '#FDF6F7' }}>
-                  <span className="font-serif text-2xl font-bold shrink-0" style={{ color: A }}>{a.year}</span>
+                  <span className="text-3xl shrink-0">🏆</span>
                   <div>
-                    <p className="font-semibold text-sm" style={{ color: DARK }}>🏆 {a.title}</p>
+                    <p className="font-semibold text-sm" style={{ color: DARK }}>{a.title}</p>
                     <p className="text-xs mt-1 leading-relaxed" style={{ color: '#7A5A5E' }}>{a.desc}</p>
                   </div>
                 </motion.div>
