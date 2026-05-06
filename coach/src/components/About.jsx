@@ -108,7 +108,7 @@ export default function About() {
             </div>
 
             <p className="text-base leading-relaxed" style={{ color: '#5A3A3E' }}>
-              I am <strong style={{ color: DARK }}>Asfiya Sulthana</strong> — Business Coach, Entrepreneur, and Founder of a growing digital platform. I earned over ₹36 lakhs and helped 900+ women become financially independent. Alhamdulillah.
+              I am <strong style={{ color: DARK }}>Asfiya Sulthana</strong> — Business Coach, Entrepreneur, and Founder of a growing digital platform. I earned over millions and helped 900+ women become financially independent. Alhamdulillah.
             </p>
             <p className="text-base leading-relaxed" style={{ color: '#5A3A3E' }}>
               I have achieved the National Award twice in 2 years, and today I empower girls to fulfil their dreams and support their families — all through the power of digital skills.
