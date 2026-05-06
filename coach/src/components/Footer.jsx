@@ -44,13 +44,21 @@ export default function Footer() {
               Helping women across India become financially independent through digital skills. Alhamdulillah.
             </p>
             <ul className="space-y-3">
-              {[{ icon: MapPin, text: brand.location }, { icon: Phone, text: brand.phone, href: `tel:${brand.phone}` }, { icon: Mail, text: brand.email, href: `mailto:${brand.email}` }].map(({ icon: Icon, text, href }) => (
-                <li key={text} className="flex items-start gap-3">
-                  <Icon size={13} className="mt-0.5 shrink-0" style={{ color: A }} />
-                  {href ? <a href={href} className="text-sm transition-colors hover:text-[#C9626A]" style={{ color: 'rgba(255,255,255,0.4)' }}>{text}</a>
-                        : <span className="text-sm" style={{ color: 'rgba(255,255,255,0.4)' }}>{text}</span>}
-                </li>
-              ))}
+              <li className="flex items-start gap-3">
+                <MapPin size={13} className="mt-0.5 shrink-0" style={{ color: A }} />
+                <span className="text-sm" style={{ color: 'rgba(255,255,255,0.4)' }}>{brand.location}</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <Phone size={13} className="mt-0.5 shrink-0" style={{ color: A }} />
+                <div className="flex flex-col gap-1">
+                  <a href="tel:+919963115040" className="text-sm transition-colors hover:text-[#C9626A]" style={{ color: 'rgba(255,255,255,0.4)' }}>+91 99631 15040</a>
+                  <a href="tel:+917396069658" className="text-sm transition-colors hover:text-[#C9626A]" style={{ color: 'rgba(255,255,255,0.4)' }}>+91 73960 69658</a>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <Mail size={13} className="mt-0.5 shrink-0" style={{ color: A }} />
+                <a href={`mailto:${brand.email}`} className="text-sm transition-colors hover:text-[#C9626A]" style={{ color: 'rgba(255,255,255,0.4)' }}>{brand.email}</a>
+              </li>
             </ul>
           </div>
 

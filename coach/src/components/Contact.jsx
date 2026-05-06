@@ -15,7 +15,8 @@ export default function Contact() {
 
   const contactInfo = [
     { icon: Mail,   label: 'Email',    value: brand.email,   href: `mailto:${brand.email}` },
-    { icon: Phone,  label: 'Phone',    value: brand.phone,   href: `tel:${brand.phone}` },
+    { icon: Phone,  label: 'Phone 1',  value: '+91 99631 15040',   href: 'tel:+919963115040' },
+    { icon: Phone,  label: 'Phone 2',  value: '+91 73960 69658',   href: 'tel:+917396069658' },
     { icon: MapPin, label: 'Location', value: brand.location, href: '#' },
   ]
 
@@ -55,16 +56,16 @@ export default function Contact() {
 
           {/* Contact Info */}
           <motion.div variants={up} initial="hidden" whileInView="visible" viewport={{ once: true }}
-            className="grid md:grid-cols-3 gap-6 mb-10">
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
             {contactInfo.map(({ icon: Icon, label, value, href }) => (
               <a key={label} href={href} target={href.startsWith('http') ? '_blank' : undefined} rel="noreferrer"
-                className="flex flex-col items-center text-center p-6 border transition-all hover:border-[#C9626A] hover:bg-white/5"
+                className="flex flex-col items-center text-center p-5 border transition-all hover:border-[#C9626A] hover:bg-white/5"
                 style={{ borderColor: 'rgba(201,98,106,0.25)', background: 'rgba(255,255,255,0.03)' }}>
-                <div className="w-12 h-12 border flex items-center justify-center mb-3" style={{ borderColor: A }}>
-                  <Icon size={18} style={{ color: A }} />
+                <div className="w-11 h-11 border flex items-center justify-center mb-3 shrink-0" style={{ borderColor: A }}>
+                  <Icon size={16} style={{ color: A }} />
                 </div>
                 <p className="text-xs tracking-widest uppercase mb-2" style={{ color: 'rgba(255,255,255,0.4)' }}>{label}</p>
-                <p className="text-sm font-medium" style={{ color: 'rgba(255,255,255,0.75)' }}>{value}</p>
+                <p className="text-xs font-medium break-words w-full" style={{ color: 'rgba(255,255,255,0.75)' }}>{value}</p>
               </a>
             ))}
           </motion.div>
