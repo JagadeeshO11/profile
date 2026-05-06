@@ -16,8 +16,7 @@ export const brand = {
 
 export const stats = [
   { value: 900, suffix: '+', label: 'Women Empowered' },
-  // { value: 36,  suffix: 'L+', label: 'Revenue Earned (₹)' },
-  { value: 4,   suffix: '×',  label: 'National Award' },
+  { value: 2,   suffix: '×',  label: 'National Award' },
   { value: 600, suffix: '+',  label: 'Businesses Launched' },
 ]
 
