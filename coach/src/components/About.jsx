@@ -52,7 +52,7 @@ export default function About() {
 
         <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }}
           variants={{ visible: { transition: { staggerChildren: 0.1 } } }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-6 p-8 mb-20 border"
+          className="grid grid-cols-1 md:grid-cols-3 gap-6 p-8 mb-20 border"
           style={{ borderColor: '#EDD8DA', background: '#FDF6F7' }}>
           {stats.map(s => <StatCard key={s.label} {...s} />)}
         </motion.div>
@@ -68,7 +68,6 @@ export default function About() {
                   alt={brand.name}
                   className="w-full h-full object-cover"
                 />
-                {/* Gradient overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
               </div>
               <div className="absolute -bottom-6 -right-6 max-w-[240px] p-5 shadow-2xl" style={{ background: DARK }}>

@@ -71,14 +71,14 @@ export default function Hero() {
       <motion.div style={{ opacity: fade }} className="max-w-6xl mx-auto px-6 w-full py-32 grid lg:grid-cols-2 gap-12 items-center">
         <motion.div variants={stagger} initial="hidden" animate="visible" className="space-y-7 z-10">
 
-          <motion.div variants={up}>
+          {/* <motion.div variants={up}>
             <span className="inline-flex items-center gap-3 text-xs font-semibold tracking-[0.2em] uppercase px-4 py-2 border"
               style={{ borderColor: 'rgba(201,98,106,0.35)', color: A }}>
               <motion.span animate={{ opacity: [1, 0.2, 1] }} transition={{ repeat: Infinity, duration: 2 }}
                 className="w-1.5 h-1.5 rounded-full" style={{ background: A }} />
               National Award Winner · 2× in 2 Years
             </span>
-          </motion.div>
+          </motion.div> */}
 
           <motion.h1 variants={up} className="font-serif text-5xl md:text-6xl font-bold leading-[1.1] text-white">
             We Are the Women of{' '}

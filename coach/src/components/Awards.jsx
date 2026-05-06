@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { X } from 'lucide-react'
 import { awards } from '../data/content'
 import awardsImg  from '../assets/awards.jpeg'
-import wa1 from '../assets/WhatsApp Image 2026-05-06 at 2.17.52 PM.jpeg'
+import wa1 from '../assets/image.png'
 import wa2 from '../assets/WhatsApp Image 2026-05-06 at 2.17.52 PM (1).jpeg'
 import wa3 from '../assets/WhatsApp Image 2026-05-06 at 2.17.52 PM (2).jpeg'
 

@@ -7,7 +7,7 @@ const A = '#C9626A'
 const links = [
   { to: 'hero',     label: 'Home' },
   { to: 'about',    label: 'About Us' },
-  { to: 'services', label: 'Programs' },
+  // { to: 'services', label: 'Programs' },
   { to: 'results',  label: 'Testimonials' },
   { to: 'insights', label: 'Insights' },
   { to: 'contact',  label: 'Contact Us' },
