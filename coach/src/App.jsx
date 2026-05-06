@@ -8,9 +8,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Awards from './components/Awards'
-import Services from './components/Services'
 import Results from './components/Results'
-import Partners from './components/Partners'
 import Insights from './components/Insights'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -66,13 +64,8 @@ export default function App() {
           <Awards />
           <Divider top={DARK}  bottom={LIGHT} />
 
-          <Services />
-          <Divider top={DARK}  bottom={LIGHT} flip />
-
           <Results />
           <Divider top={LIGHT} bottom={DARK} />
-
-          <Partners />
 
           <Insights />
           <Divider top={LIGHT} bottom={DARK} />

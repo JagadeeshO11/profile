@@ -2,13 +2,13 @@ export const brand = {
   name: 'Asfiya Sulthana',
   tagline: 'We Are the Women of Independent India',
   sub: 'Business Coach & Entrepreneur empowering 900+ women to become financially independent through digital skills.',
-  email: 'hello@asfiyasulthana.com',
-  phone: '+91 00000 00000',
-  whatsapp: 'https://api.whatsapp.com/send?phone=910000000000',
+  email: 'asfiyasulthana.work@gmail.com',
+  phone: '+91 99631 15040',
+  whatsapp: 'https://api.whatsapp.com/send?phone=919963115040',
   instagram: 'https://www.instagram.com/',
   linkedin: 'https://linkedin.com/',
-  facebook: 'https://facebook.com/',
-  youtube: 'https://youtube.com/',
+  facebook: 'https://www.facebook.com/share/18jHxmunh6/',
+  youtube: 'https://www.youtube.com/@AsfiyaSulthana_01',
   location: 'Hyderabad, India',
   founder: 'Miss Asfiya Sulthana',
   platform: 'Digital Empowerment Platform',
@@ -57,14 +57,14 @@ export const services = [
 ]
 
 export const testimonials = [
-  { id: 1, name: 'Nida', role: 'Facebook Ads Specialist', stars: 5, avatar: 'N', quote: 'Alhamdulillah Facebook ads ke through freelancing start krdi hai... aaj client ke liye ad set kiya hai 💫🔥 Aap proudly keh sakti hai ki apki team me bhi Facebook ads expert hai 😇😍' },
-  { id: 2, name: "I'm Asiya", role: 'Affiliate Marketer', stars: 5, avatar: 'A', quote: 'Alhamdulillah allahumma barik maine 5 lakh+ ki earning affiliate marketing se generate kari hai. Aapka bhot shukriya aapne itne acche se support kara 🔥😍🥹' },
-  { id: 3, name: 'Ruma Ansari', role: 'Video Editor', stars: 5, avatar: 'R', quote: 'Mujhe reel ka R bhi nahi ata tha but apne hme sikhaya editing wagairah. Ab meri ek reel 35k cross kr gyi alhamdulillah ☺️ Allah apko bht tarakki de 🥺🥰' },
-  { id: 4, name: 'Kounain', role: 'Freelancer', stars: 5, avatar: 'K', quote: "I'm a freelancer and I'm very thankful to Allah because Allah gave samrana mam as my mentor. She gave me a positive way to learn skills and become independent." },
-  { id: 5, name: 'Raisa Pathan', role: 'Graphic Designer', stars: 5, avatar: 'RP', quote: 'Alhamdulillah aap ki support se I got selected as a freelancer. A Dr. hired me for monthly template design. Consistency is the key to success 🔥' },
-  { id: 6, name: 'This is Poonam', role: 'Graphic Designer', stars: 5, avatar: 'P', quote: 'After joining your mentorship you resolved all my doubts. Meeting you was like walking on a good path. There is really no mentor like you. Thank you ma\'am 🫶' },
-  { id: 7, name: 'Sana Farhan', role: 'Digital Entrepreneur', stars: 5, avatar: 'SF', quote: 'Being a housewife & mother of 2 kids, alhamdulillah meine is platform se 4 lakh 61,000 ki earning create ki h, only because of your help & guidance 💸🥹' },
-  { id: 8, name: 'Ruma', role: 'Multi-skill Freelancer', stars: 5, avatar: 'Ru', quote: 'Is platform ne mujhe 2 source of income generate karna sikhaya — affiliate marketing aur video editing. Ap ka bhut bhut shukriya ✨❤️' },
+  { id: 1, name: "I'm Adeeba", role: 'Digital Entrepreneur', stars: 5, avatar: '🧕', quote: 'Assalamualaikum ma\'am, Asfiya Ma\'am, Alhamdulillah 4 lakhs completed 💰 meri zindagi ka sabse khoobsurat tohfa Allah ne mujhe aapki guidance ki soorat me ataa kiya hai 🌸 Aaj meri earning aur success sirf numbers nahi, aapki guidance ki hai 💫 Aapne mujhe sirf work hi nahi sikhaya balki sabr, yaqeen aur himmat ka asal matlab samjhaya.. Dil se shukriya for always supporting me and believing in my journey 🥹 Allah Paak aapko hamesha apni hifazat mein rakhe aur aapki zindagi ko barkat, izzat aur sakoon se bhar dey 🤲' },
+  { id: 2, name: "I'm Mahii", role: 'Freelancer', stars: 5, avatar: '🧕', quote: 'Asfiya Baji, Aapka bohot shukriya. Aapne itne ache se guide kiya.. itni ache se har cheez ko clear Kiya 💕 Meri income abhi 53,000 hui hai Allhumdullilah 🎉 Allhumdullilah sirf aapke wajah se possible ho payi hai 😍 I thank you once again for introducing me to this wonderful platform. Its a best platform for girls 👭' },
+  { id: 3, name: 'Habiba', role: 'Mother of 3 kids', stars: 5, avatar: '🧕', quote: 'Assalamualaikum asfiya ma\'am jiii dekhiyee 30,000 earning hogai hai meri apke support & guidance se 💸 Mai ek house wife & Mother of 3 kids 👶👶👶 mai bht khush hu jazakallahu khaira 🤲 allah tala ne apko zariya banaya or mujhe yaha tak pahuchaya. Thnk u so much 😍 aapki mentorship se mujhe ye results mile hai I\'m vry greatful.. aapse kaafı motivation milti hai 💪' },
+  { id: 4, name: 'Habiba Naaz', role: 'Freelancer', stars: 5, avatar: '🧕', quote: 'Assalamualaikum Asfiya sister, Maine apke through is platform ko join Kiya tha nd mujhe na koi knowledge nhi thi naa hi koi idea tha ki mai kr paungi ya nhi bss Allah ke bharose or apke bharose join krliya tha but Alhamdulillah Alhamdulillah 🌟 aapne hame bht ache se guide kiya nd now mai ek freelancer ban gyi, bht se source of income build kii hu 😍 Ma sha Allah Allah ke karam se mujhe toh kuch b nhi ata tha but aapne hame skills ko sikhyaa Alhamdulillah ☺️ Allah taala apko bht bht tarakki dey 🤲' },
+  { id: 5, name: "I'm Ayesha", role: 'Student & Freelancer', stars: 5, avatar: '🧕', quote: 'Mai hamesha sochti thi ke online work me kuch nahi hota, lekin jab maine is company join ki tab mujhe laga shayad mere dreams yahin se poore honge!! 💭 Seriously main bahut khush hoon ki main apni studies ke saath ye kaam kar rahi hoon aur ek alag hi excitement hoti hai apke session ki 📚✨ Aur bahut bahut shukriya Asfiya maam ka, jinki guidance aur meri mehnat ki wajah se main itna aage badh rahi hoon usi online work me jisme mujhe pehle kuch samajh nahi aata tha 🙌 Aur yahan se main bahut aage badhchuki hu apne life me aur apne har sapne ko poora kar pari hu 🌈 Jazakillah Asfiya mam 🥹🥹' },
+  { id: 6, name: "I'm Nazneen", role: 'Digital Entrepreneur', stars: 5, avatar: '🧕', quote: 'Alhamdulillah aapki guidance se maine apne sapno ko haqeeqat mein badal diya hai 💫 Pehle mujhe lagta tha ki ghar baithe kuch nahi ho sakta, lekin aapne mujhe raasta dikhaya 🌸 Aaj main financially independent hoon aur apne family ko support kar rahi hoon 💪 Allah aapko jazaye khair de Asfiya ma\'am 🤲 Aap jaisi mentor milna mere liye Allah ki rehmat hai 😊' },
+  { id: 7, name: "I'm Mariyam", role: 'Daughter & Entrepreneur', stars: 5, avatar: '🧕', quote: 'Assalamu alaikum Asfiya mam, Mere parents bht proud feel Karte hai mujh per 🥹 Kuch months phle mene apke sath join kiya tha and us waqt koi andaza nhi tha ki mai itna earn kr sakungi and apne parents ke liye gift le sakungi 🎁 alhamdulillah mene apne papa ko Bhai ko mobile gift kiya hai 📱 aaj vo bohot proud feel krty hai ki hmari beti tarakki kr rahi hai 🥹🥹' },
+  { id: 8, name: "I'm Afiya", role: 'Housewife & Mother', stars: 5, avatar: '🧕', quote: 'Assalamualaikum Asfiya mam... aaj mei alhamdulillah bss i really very big thankful to you... 1 lakh 50k achieve Kia my ne with the help of you 💰✨ Mai EK HouseWife hu sth me Meri 3 saal ki choti Beti hai 👶 ghar or bacche ko manage krke alhamdulillah financially independent bani aapki wjh se 💪 Special thanks to you Asfiya mam 🤲' },
 ]
 
 export const insights = [

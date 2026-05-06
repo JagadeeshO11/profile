@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { stats, values, mission, vision, awards, brand } from '../data/content'
+import portraitImg from '../assets/picture.jpeg'
 
 const A = '#C9626A'
 const A2 = '#E8A0A5'
@@ -60,15 +61,15 @@ export default function About() {
           <motion.div variants={up} initial="hidden" whileInView="visible" viewport={{ once: true }}>
             <div className="relative">
               <div className="absolute -top-3 -left-3 w-full h-full border-2 opacity-30" style={{ borderColor: A }} />
-              <div className="relative aspect-[4/5] overflow-hidden flex flex-col items-center justify-center gap-3"
+              <div className="relative aspect-[4/5] overflow-hidden"
                 style={{ background: '#FDF6F7' }}>
-                <motion.div
-                  animate={{ boxShadow: [`0 0 0px rgba(201,98,106,0)`, `0 0 30px rgba(201,98,106,0.3)`, `0 0 0px rgba(201,98,106,0)`] }}
-                  transition={{ repeat: Infinity, duration: 3 }}
-                  className="w-20 h-20 rounded-full border-2 flex items-center justify-center font-serif text-2xl font-bold"
-                  style={{ borderColor: A, color: A }}>AS
-                </motion.div>
-                <p className="text-xs tracking-widest uppercase" style={{ color: '#C4A0A3' }}>Portrait Photo</p>
+                <img 
+                  src={portraitImg} 
+                  alt={brand.name}
+                  className="w-full h-full object-cover"
+                />
+                {/* Gradient overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
               </div>
               <div className="absolute -bottom-6 -right-6 max-w-[240px] p-5 shadow-2xl" style={{ background: DARK }}>
                 <p className="font-serif text-sm italic leading-relaxed text-white opacity-90">
@@ -103,7 +104,7 @@ export default function About() {
                 <span className="w-5 h-px" style={{ background: A }} /> My Story
               </span>
               <h2 className="font-serif text-4xl md:text-5xl font-bold leading-tight mt-2" style={{ color: DARK }}>
-                From Dreams to <span style={GRAD}>₹36 Lakhs & Beyond</span>
+                From Dreams to <span style={GRAD}>Millionaire & Beyond</span>
               </h2>
             </div>
 

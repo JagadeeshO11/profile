@@ -4,6 +4,7 @@ import { Link } from 'react-scroll'
 import { TypeAnimation } from 'react-type-animation'
 import { ArrowUpRight } from 'lucide-react'
 import { brand } from '../data/content'
+import portraitImg from '../assets/picture.jpeg'
 
 const A = '#C9626A'
 const A2 = '#E8A0A5'
@@ -131,11 +132,45 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0, x: 40 }} animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
           className="hidden lg:flex items-center justify-center relative" style={{ height: '480px' }}>
-          <AnimatedOrb />
+          
+          {/* Portrait Image */}
+          <motion.div 
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 0.8, delay: 0.7 }}
+            className="relative z-10">
+            <div className="relative w-80 h-96 rounded-3xl overflow-hidden"
+              style={{ 
+                boxShadow: '0 25px 80px rgba(201,98,106,0.4)',
+                border: '4px solid rgba(201,98,106,0.3)'
+              }}>
+              <img 
+                src={portraitImg} 
+                alt={brand.name}
+                className="w-full h-full object-cover"
+              />
+              {/* Gradient overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
+            </div>
+            
+            {/* Decorative elements around portrait */}
+            <motion.div
+              animate={{ rotate: 360 }}
+              transition={{ repeat: Infinity, duration: 20, ease: 'linear' }}
+              className="absolute -top-4 -right-4 w-20 h-20 rounded-full opacity-20"
+              style={{ background: `linear-gradient(135deg, ${A}, ${A2})` }} />
+            
+            <motion.div
+              animate={{ rotate: -360 }}
+              transition={{ repeat: Infinity, duration: 25, ease: 'linear' }}
+              className="absolute -bottom-4 -left-4 w-16 h-16 rounded-full opacity-20"
+              style={{ background: `linear-gradient(135deg, ${A2}, ${A})` }} />
+          </motion.div>
+
           <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.4 }}
-            whileHover={{ y: -4 }} className="absolute bottom-4 left-0 px-6 py-4 shadow-2xl z-20 bg-white" style={{ minWidth: '170px' }}>
-            <p className="font-serif text-3xl font-bold" style={{ color: DARK }}>₹36L+</p>
-            <p className="text-xs mt-1" style={{ color: '#7A5A5E' }}>Earned & helped women earn</p>
+            whileHover={{ y: -4 }} className="absolute bottom-4 left-0 px-6 py-4 shadow-2xl z-20 bg-white rounded-lg" style={{ minWidth: '170px' }}>
+            <p className="font-serif text-2xl font-bold" style={{ color: DARK }}>💰 Millionaire</p>
+            <p className="text-xs mt-1" style={{ color: '#7A5A5E' }}>Helping women achieve financial freedom</p>
           </motion.div>
           <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 1.6, type: 'spring', stiffness: 260, damping: 18 }}
